@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+body {
+
+  @apply m-auto w-1/2;
+  @apply text-gray-50;
+  background-color: #25292f;
+}

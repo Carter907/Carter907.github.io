@@ -1,0 +1,4 @@
+a {
+  @apply border-b-2 border-transparent hover:border-white;
+  @apply transition-colors duration-200;
+}
