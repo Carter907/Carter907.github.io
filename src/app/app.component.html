@@ -1,16 +1,52 @@
 <nav class="flex justify-center p-4">
   <img ngSrc="https://avatars.githubusercontent.com/u/102479896?s=96&v=4"
        width="50" height="50" class="rounded-full shadow-xl select-none"
-   alt="profile photo"/>
+       alt="profile photo"/>
   <div class="flex gap-5 h-fit m-auto">
+    <button type="button">
 
-    <a routerLink="/home">Home</a>
-    <a routerLink="/skills">Skills</a>
-    <a routerLink="/projects">Projects</a>
-    <a routerLink="/contact">Contact</a>
+      <a routerLink="/home">Home</a>
+    </button>
+    <button type="button">
+
+      <a routerLink="/skills">Skills</a>
+    </button>
+    <button type="button">
+
+      <a routerLink="/projects">Projects</a>
+    </button>
+
+
   </div>
 </nav>
-<div class="mt-10">
+<div class="flex flex-col">
+<section class="h-screen">
+  <div class="mt-10">
 
-  <router-outlet/>
+    <router-outlet/>
+  </div>
+</section>
+
+<footer>
+    <div class="container flex flex-row justify-center gap-20 p-4">
+
+        <a href="https://www.linkedin.com/in/carter-s-240854279/">
+
+          <fa-icon [icon]="faLinkedin" size="3x"/>
+
+        </a>
+
+
+      <div>
+
+        <a href="mailto:speers.carter@gmail.com">
+          <fa-icon [icon]="faEnvelope" size="3x"/>
+
+        </a>
+      </div>
+    </div>
+
+</footer>
+
 </div>
+
