@@ -1,7 +1,9 @@
-<nav class="flex justify-center p-4">
-  <img ngSrc="https://avatars.githubusercontent.com/u/102479896?s=96&v=4"
-       width="50" height="50" class="rounded-full shadow-xl select-none"
-       alt="profile photo"/>
+<nav class="flex border-2 border-gray-600
+ items-center gap-5 flex-col
+  justify-center bg-stone-800 rounded-full m-5 mx-20 p-3">
+  <div>
+    <span class="opacity-20">Carter's Github Page</span>
+  </div>
   <div class="flex gap-5 h-fit m-auto">
     <button type="button">
 
@@ -20,21 +22,21 @@
   </div>
 </nav>
 <div class="flex flex-col">
-<section class="h-screen">
-  <div class="mt-10">
+  <section class="h-screen">
+    <div class="mt-10">
 
-    <router-outlet/>
-  </div>
-</section>
+      <router-outlet/>
+    </div>
+  </section>
 
-<footer>
+  <footer>
     <div class="container flex flex-row justify-center gap-20 p-4">
 
-        <a href="https://www.linkedin.com/in/carter-s-240854279/">
+      <a href="https://www.linkedin.com/in/carter-s-240854279/">
 
-          <fa-icon [icon]="faLinkedin" size="3x"/>
+        <fa-icon [icon]="faLinkedin" size="3x"/>
 
-        </a>
+      </a>
 
 
       <div>
@@ -46,7 +48,7 @@
       </div>
     </div>
 
-</footer>
+  </footer>
 
 </div>
 

@@ -20,8 +20,9 @@
   body {
     @apply
     m-auto w-1/2
+    bg-stone-900
     text-gray-50;
-    background-color: #25292f;
+
   }
 
   button a {
