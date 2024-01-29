@@ -11,7 +11,19 @@ import {NgOptimizedImage} from "@angular/common";
     NgOptimizedImage
   ],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styles: `
+
+    .language-item {
+      @apply w-1/2
+      flex gap-20
+      p-5
+      select-none
+      m-auto
+      bg-blue-400
+      shadow-xl
+      bg-opacity-5
+    }
+  `
 })
 export class SkillsComponent {
 

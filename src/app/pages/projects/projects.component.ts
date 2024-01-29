@@ -9,7 +9,7 @@ import {FaIconComponent} from "@fortawesome/angular-fontawesome";
     FaIconComponent
   ],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styles: ``
 })
 export class ProjectsComponent {
 

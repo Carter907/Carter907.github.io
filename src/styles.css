@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind base;
+::-webkit-scrollbar {
+  @apply
+  w-[12px]
+}
+
+::-webkit-scrollbar-track {
+  @apply
+  bg-neutral-800
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  @apply
+  bg-neutral-600
+  rounded
+  border-2
+}
+
+.active {
+  @apply
+  border-white
+  text-gray-50
+
+}
 
 @layer base {
 
@@ -25,9 +49,10 @@
 
   }
 
+
   button a {
     @apply
-    text-gray-50
+    text-gray-400
     shadow-md
     rounded
     p-2
