@@ -43,7 +43,12 @@
 
   body {
     @apply
-    m-auto w-1/2
+    sm:m-auto
+    sm:w-2/3
+    lg:w-1/2
+    p-2
+    transition-all
+    duration-300
     bg-stone-900
     text-gray-50;
 

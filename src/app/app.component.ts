@@ -4,11 +4,12 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {faLinkedin, faMailchimp} from "@fortawesome/free-brands-svg-icons";
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
 import {faEnvelope, faMailBulk, faMailForward, faMailReply, faMailReplyAll} from "@fortawesome/free-solid-svg-icons";
+import {NavbarComponent} from "./navbar/navbar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, NgOptimizedImage, FaIconComponent, RouterLinkActive],
+  imports: [CommonModule, RouterOutlet, RouterLink, NgOptimizedImage, FaIconComponent, RouterLinkActive, NavbarComponent],
   templateUrl: './app.component.html',
   styles: ``
 })
